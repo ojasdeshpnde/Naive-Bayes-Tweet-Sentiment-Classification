@@ -1,1 +1,15 @@
+Credit: Sentiment140
+raw data: https://www.kaggle.com/datasets/kazanova/sentiment140
 
+I used the Sentiment 140 Database to train my Naive Bayes model.
+
+What is this mess?
+Let me start by explaining what I have done
+I used all the data that was provided and then removed data I didn't find useful and kept the rest.
+Then I split the data up in test data and training data.
+I used about 1500 tweets for testing purposes and used all of the remaining data for training (yes thats a lot of data).
+Now, I have uploaded the test data but I could not upload the training data since it was too large. But if you want to look at the raw data, its provided above.
+I used Naive Bayes to create my "trained" model which is just two arrays filled with probabilities (its just a probability distribution).
+Now, I use this "model" to predict if a given tweet is positive or negative. You can mess with my code to use tweets of your own!
+If you run my code, with the given test data, I get a accuracy of about 93% which I think is pretty awesome!
+Quick Note: You might get a warning about how you are dividing by zero, I have not gotten around to fixing it yet but I will soon!
