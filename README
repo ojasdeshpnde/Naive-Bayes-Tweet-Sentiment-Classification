@@ -13,3 +13,5 @@ I used Naive Bayes to create my "trained" model which is just two arrays filled 
 Now, I use this "model" to predict if a given tweet is positive or negative. You can mess with my code to use tweets of your own!
 If you run my code, with the given test data, I get a accuracy of about 93% which I think is pretty awesome!
 Quick Note: You might get a warning about how you are dividing by zero, I have not gotten around to fixing it yet but I will soon!
+Another note: The files you see called posData.out and negData.out are my model. Those are my probability ditributions I got after training with the training set.
+The cool part is that once trained, the space taken by the model is pretty tiny!
